@@ -65,6 +65,7 @@ nav ul li{
   margin-right: 4vh;
 }
 
+
 .navbar a{
   color: white;
   font-size: 18px;
@@ -366,7 +367,7 @@ nav ul li a{
   border: 2px solid transparent;
   border-radius: 20px;
   color: white;
-  background-color: rgb(21, 74, 74);
+  background-color: rgb(0, 0, 0);
   padding: 14px 30px;
   cursor: pointer;
   font-size: 17px;
@@ -377,9 +378,9 @@ nav ul li a{
 }
 
 .newsletter form input:last-child:hover{
-  border: 2px solid rgb(21, 74, 74);
+  border: 2px solid rgb(0, 0, 0);
   background-color: white;
-  color: rgb(21, 74, 74);
+  color: rgb(0, 0, 0);
 }
 
 
@@ -442,7 +443,7 @@ nav ul li a{
   margin: 4px;
   height: 40px;
   width: 40px;
-  color: rgb(21, 74, 74);
+  color: rgb(0, 0, 0);
   background-color: white;
   display: inline-flex;
   justify-content: center;
@@ -484,9 +485,14 @@ nav ul li a{
   width: 400px;
 }
 
-.abt-text{
-  width: 500px;
+.abt-text {
+  width: 100%;
+  padding: 20px;
+  text-align: justify;
+  font-family: Georgia, serif;
+  font-size: 14px; 
 }
+
 
 .abt-text h1{
   font-size: 70px;
@@ -736,30 +742,6 @@ nav ul li a{
   font-size: 20px;
   color: rgb(197, 167, 44);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
