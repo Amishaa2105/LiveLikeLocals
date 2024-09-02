@@ -1,15 +1,13 @@
 *{
   padding:0;
   margin:0;
-  box-sizing:border-box;
+  box-sizing:border;
   font-family:'Poppins',sans-serif;
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
 }
 
-
-/* Home page */
 
 .banner{
   width:100%;
@@ -172,7 +170,38 @@ nav ul li a{
   margin-bottom:10px ;
 }
 
+.container-box{
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 50px 10px;
+  transition: all 0.7s ease 0s;
+  cursor: pointer;
+}
 
+.container-image img{
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.container-box h4{
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 550;
+}
+
+.container-box p{
+  font-size: 16px;
+  color: #808080;
+}
+
+.container-box:hover{
+  transform: translateX(3px);
+  box-shadow: 5px 20px 50px rgba(78, 78, 78, 0.1);
+  border: 1px solid transparent;
+  border-radius: 0px;
+}
 
 /* Packages */
 
@@ -504,6 +533,9 @@ nav ul li a{
   transition: ease 0.4s;
   border: 2px solid transparent;
   letter-spacing: 1px;
+  align-items: center; 
+  justify-content: center; 
+ 
 }
 
 .connectbtn:hover{
@@ -535,7 +567,71 @@ nav ul li a{
   transform: scale(1.2);
 }
 
+/* Contact Us */
 
+.contactbody{
+  background-color: #101010;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.contact{
+  padding: 110px 30%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.contact-form h1{
+  font-size: 80px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-form h1 span{
+  color:#fc0050;
+}
+
+.contact-form p{
+  color: white;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+
+.contact-form form input,form textarea{
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background-color: #191919;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-form form .submit-btn{
+  display: inline-block;
+  background-color: #fc0050;
+  font-size: 27px;
+  font-weight: 600px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  width: 220px;
+  cursor: pointer;
+  transition: ease 0.30s;
+
+}
+
+.contact-form form .submit-btn:hover{
+  border: 2px solid #fc0050;
+  background-color: transparent;
+  transform: scale(1.1);
+
+}
 
 /* Registration Form */
 
@@ -605,15 +701,14 @@ nav ul li a{
 
 
 .location-body{
-  background-color: #f2f2b3;
+  background-color: #191919;
   color: white;
 }
 
 .location-section{
-  padding: 80px 50px;
+  padding: 110px;
   height: 100%;
   min-height: 100vh;
-  box-sizing: border-box;
 }
 
 .location-heading h1{
@@ -638,44 +733,18 @@ nav ul li a{
   margin-bottom: 10px;
 }
 
-.location-img {
-  display: flex; /* Enables flexbox layout */
-  justify-content: start; /* Aligns the images to the left */
-  gap: 20px; /* Adds space between the images */
-  margin-top: 30px;
-  margin-bottom: 30px;
-  
-}
-
-.location-img img {
-  height: 500px; /* Keeps a fixed height for all images */
-  border-radius: 10px; /* Adds rounded corners */
-  max-width: 90%; /* Ensures images do not overflow */
-  display: block; /* Maintains block-level alignment */
-  
-}
-/*
-.location-img img {
-  max-width: 100%;
-  height: 500px;
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: block; 
-}
-
-
 .location-img img{
-  height: 600px;
-  width: 600px;
+  height: 400px;
+  width: 400px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-*/
+
 .stars i{
   font-size: 20px;
   color: rgb(197, 167, 44);
 }
+
 
 
 
